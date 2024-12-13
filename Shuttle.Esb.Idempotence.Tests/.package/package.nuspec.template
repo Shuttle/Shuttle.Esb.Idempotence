@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<package>
+	<metadata>
+		<id>Shuttle.Esb.Idempotence.Tests</id>
+		<version>#{SemanticVersion}#</version>
+		<authors>Eben Roux</authors>
+		<owners>Eben Roux</owners>
+		<icon>images\logo.png</icon>
+		<readme>docs\README.md</readme>
+		<repository type="git" url="https://github.com/Shuttle/Shuttle.Esb.Idempotence.git" />
+		<projectUrl>https://github.com/Shuttle/Shuttle.Esb.Idempotence</projectUrl>
+		<description>Fixture for testing base idempotence implementations.</description>
+		<copyright>Copyright (c) #{Year}#, Eben Roux</copyright>
+		<tags></tags>
+		<dependencies>
+#{Dependencies}#
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\..\..\.media\logo.png" target="images" />
+		<file src="..\..\..\README.md" target="docs" />
+		<file src="lib\**\*.*" target="lib" />
+	</files>
+</package>

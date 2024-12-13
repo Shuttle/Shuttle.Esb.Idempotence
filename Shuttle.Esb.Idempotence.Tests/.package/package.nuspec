@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<package>
+	<metadata>
+		<id>Shuttle.Esb.Idempotence.Tests</id>
+		<version>20.0.0</version>
+		<authors>Eben Roux</authors>
+		<owners>Eben Roux</owners>
+		<icon>images\logo.png</icon>
+		<readme>docs\README.md</readme>
+		<repository type="git" url="https://github.com/Shuttle/Shuttle.Esb.Sql.Idempotence.git" />
+		<projectUrl>https://github.com/Shuttle/Shuttle.Esb.Sql.Idempotence</projectUrl>
+		<description>Fixture for testing base idempotence implementations.</description>
+		<copyright>Copyright (c) 2024, Eben Roux</copyright>
+		<tags></tags>
+		<dependencies>
+      <dependency id="Microsoft.Extensions.Configuration.Json" version="8.0.1" />
+      <dependency id="Microsoft.Extensions.DependencyInjection" version="8.0.1" />
+      <dependency id="Microsoft.NET.Test.Sdk" version="17.12.0" />
+      <dependency id="Moq" version="4.20.72" />
+      <dependency id="NUnit" version="4.2.2" />
+      <dependency id="NUnit3TestAdapter" version="4.6.0" />
+      <dependency id="Shuttle.Esb.Logging" version="20.0.0" />
+      <dependency id="Shuttle.Esb.Tests" version="20.0.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\..\..\.media\logo.png" target="images" />
+		<file src="..\..\..\README.md" target="docs" />
+		<file src="lib\**\*.*" target="lib" />
+	</files>
+</package>

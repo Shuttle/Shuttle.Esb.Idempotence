@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shuttle.Esb.Idempotence", "Shuttle.Esb.Idempotence\Shuttle.Esb.Idempotence.csproj", "{A227BA8B-349B-45F2-9D10-C711B0441775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shuttle.Esb.Idempotence.Tests", "Shuttle.Esb.Idempotence.Tests\Shuttle.Esb.Idempotence.Tests.csproj", "{58777CD9-D87D-48F0-BF70-A1DCB6C90970}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55C7ACE0-00DB-4B9D-808A-9CBAC1012983}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A227BA8B-349B-45F2-9D10-C711B0441775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A227BA8B-349B-45F2-9D10-C711B0441775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A227BA8B-349B-45F2-9D10-C711B0441775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A227BA8B-349B-45F2-9D10-C711B0441775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58777CD9-D87D-48F0-BF70-A1DCB6C90970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58777CD9-D87D-48F0-BF70-A1DCB6C90970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58777CD9-D87D-48F0-BF70-A1DCB6C90970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58777CD9-D87D-48F0-BF70-A1DCB6C90970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
