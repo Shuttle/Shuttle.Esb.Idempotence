@@ -8,10 +8,10 @@
 		<owners>Eben Roux</owners>
 		<icon>images\logo.png</icon>
 		<readme>docs\README.md</readme>
-		<repository type="git" url="https://github.com/Shuttle/Shuttle.Esb.Sql.Idempotence.git" />
-		<projectUrl>https://github.com/Shuttle/Shuttle.Esb.Sql.Idempotence</projectUrl>
+		<repository type="git" url="https://github.com/Shuttle/Shuttle.Esb.Idempotence.git" />
+		<projectUrl>https://github.com/Shuttle/Shuttle.Esb.Idempotence</projectUrl>
 		<description>Fixture for testing base idempotence implementations.</description>
-		<copyright>Copyright (c) 2024, Eben Roux</copyright>
+		<copyright>Copyright (c) 2025, Eben Roux</copyright>
 		<tags></tags>
 		<dependencies>
       <dependency id="Microsoft.Extensions.Configuration.Json" version="8.0.1" />
